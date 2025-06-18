@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Converting fluid measurements</title>
+
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div data-role="page">
+
+      <div data-role="header"> Converting fluid measurements
+      </div>
+
+      <div data-role="content">
+        <label for="gallon">Enter the quantity in gallons:</label>
+        <input type="number" name="gallons" id="gallons" placeholder="gallons" class="form-control" min="0" max="1000">
+
+      <button onclick="display();">  Display</button>
+      </div>
+
+      <div data-role="footer">
+        <h4>Fluid quantity converter</h4>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
